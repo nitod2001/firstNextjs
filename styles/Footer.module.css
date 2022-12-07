@@ -1,0 +1,117 @@
+.footer_section {
+  padding: 6.1rem 16.2rem 3.6rem;
+  background: #0c1c46;
+}
+
+.footer_logo {
+  margin-bottom: 3.4rem;
+}
+
+.footer_block {
+  width: 100%;
+  padding-bottom: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.footer_heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  margin-bottom: 1.2rem;
+  text-transform: capitalize;
+}
+
+.locations_block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.locations_block img {
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+}
+
+.locations_info {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-left: 0.5rem;
+}
+
+.locations_street {
+  margin-bottom: 0.8rem;
+}
+
+.sevices_block {
+  display: flex;
+  flex-direction: column;
+}
+.services_item {
+  display: inline-block;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.services_item::before {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  transform: scale(0);
+  background: #fff;
+  transition: 0.2s linear;
+  transform-origin: left;
+}
+
+.services_item:hover::before {
+  transform: scale(1);
+  transform-origin: right;
+}
+
+.social_media {
+  display: flex;
+}
+
+.social_media_item {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  background: #fff;
+  color: #0c1c46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 1.2rem;
+}
+
+.contact {
+  font-weight: 400;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.contact div {
+  margin-left: 0.6rem;
+  font-size: 1.6rem;
+}
+
+.copy_right {
+  margin-top: 3.6rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+}

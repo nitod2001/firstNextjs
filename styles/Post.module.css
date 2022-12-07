@@ -1,0 +1,163 @@
+.posts_section {
+  padding: 8rem 16.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts {
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.client {
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.posts_container {
+  padding-right: 2.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post_item {
+  display: flex;
+}
+
+.posts_heading {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.posts_heading span {
+  margin-right: 0.4rem;
+  font-weight: 700;
+}
+
+.post_circle {
+  margin-left: 2.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.post_circle div {
+  margin-right: 0.8rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e9eef4;
+}
+
+.post_circle div.active {
+  background: #0081ff;
+}
+
+.post_date {
+  position: relative;
+  margin-right: 1.2rem;
+}
+
+.post_day {
+  display: inline-block;
+  padding: 1rem 1.4rem;
+  background: #e9eef4;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+}
+
+.post_month {
+  transform: translate(-100%, 185%);
+  position: absolute;
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  background-color: #0081ff;
+  color: #fff;
+}
+
+.post_content {
+  width: 20.6rem;
+}
+
+.post_title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.post_desc {
+  word-break: break-word;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.post_btn {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #ff7d00;
+  cursor: pointer;
+}
+
+.client_content {
+  position: relative;
+  padding: 4.3rem 4.1rem 4.3rem 7.2rem;
+  background: #0052d8;
+  border-radius: 0.8rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.client_content::before {
+  position: absolute;
+  bottom: -2rem;
+  left: 4rem;
+  content: "";
+  border: 1.2rem solid;
+  border-color: #0052d8 transparent transparent transparent;
+}
+
+.client_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(90%, 70%);
+  font-size: 4rem;
+}
+
+.user {
+  margin-top: 1.3rem;
+  display: flex;
+}
+
+.user_avt {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #e9eef4;
+  margin-right: 0.9rem;
+}
+
+.user_name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0c1c46;
+  margin-bottom: 0.3rem;
+}
+
+.user_desc {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #ff7d00;
+}

@@ -1,0 +1,32 @@
+.tech_section {
+  background: linear-gradient(98.73deg, #e9eef4 0.22%, #f6f6f6 99.81%);
+  padding: 10rem 30.4rem 6rem;
+}
+
+.partners_block {
+  margin-bottom: 6rem;
+}
+
+.partners_options {
+  margin-top: 2.4rem;
+  padding: 0 7.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tech_options1 {
+  margin-top: 2.4rem;
+  padding: 0 2.85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tech_options2 {
+  margin-top: 2.4rem;
+  padding: 0 1.45rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

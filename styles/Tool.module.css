@@ -1,0 +1,42 @@
+.tool_section {
+  display: flex;
+  align-items: center;
+}
+
+.tool_icon {
+  width: 10.6rem;
+  height: 6.4rem;
+  margin-bottom: 3.8rem;
+}
+
+.tool_icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tool_title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.tool_content {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.tool_content span {
+  color: #ffc41a;
+  cursor: pointer;
+}
+
+.tool_content a {
+  font-weight: 700;
+  color: #0081ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
