@@ -1,6 +1,7 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/navbar.module.css";
+import Navbar_btn from "./Navbar_btn";
 
 export default function Navbar() {
   return (
@@ -10,24 +11,11 @@ export default function Navbar() {
           <img src="/PrimaryLogo.png"></img>
         </div>
         <nav className={styles.header_nav}>
-          <Link
-            className={(styles.header_nav_item, styles.active)}
-            href="/about"
-          >
-            <div>About</div>
-          </Link>
-          <Link className={styles.header_nav_item} href="/services">
-            <div>Services</div>
-          </Link>
-          <Link className={styles.header_nav_item} href="/exports">
-            <div>Exports</div>
-          </Link>
-          <Link className={styles.header_nav_item} href="/careers">
-            <div>Careers</div>
-          </Link>
-          <Link className={styles.header_nav_item} href="/contact">
-            <div>Contact</div>
-          </Link>
+          <Navbar_btn href="/" title="About"></Navbar_btn>
+          <Navbar_btn href="/services" title="Services"></Navbar_btn>
+          <Navbar_btn href="/exports" title="Exports"></Navbar_btn>
+          <Navbar_btn href="/careers" title="Careers"></Navbar_btn>
+          <Navbar_btn href="/contact" title="Contact"></Navbar_btn>
         </nav>
       </div>
     </div>

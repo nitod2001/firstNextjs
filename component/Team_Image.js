@@ -13,6 +13,8 @@ export default function Team_Image(props) {
       <style jsx>
         {`
           .team_item_image {
+            border-radius: 1rem;
+            overflow: hidden;
             position: relative;
             margin-bottom: 1rem;
             height: 356px;

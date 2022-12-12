@@ -3,6 +3,7 @@ import styles from "../styles/Team.module.css";
 
 import Team_Image from "./Team_Image";
 import Team_Content from "./Team_Content";
+import Team_Item from "./Team_Item";
 
 export default function Team() {
   return (
@@ -21,54 +22,36 @@ export default function Team() {
         </div>
       </div>
       <div className={styles.team_block}>
-        <div className={styles.team_item}>
-          <Team_Image
-            url="/Rectangle702.png"
-            name="Kiet Ngo"
-            desc="AgileOps Lead"
-          ></Team_Image>
-          <Team_Content></Team_Content>
-        </div>
-        <div className={styles.team_item}>
-          <Team_Image
-            url="/Rectangle703.png"
-            name="Duy Nguyen"
-            desc="Agile Evangelist"
-          ></Team_Image>
-          <Team_Content></Team_Content>
-        </div>
-        <div className={styles.team_item}>
-          <Team_Image
-            url="/Rectangle704.png"
-            name="Luu Minh"
-            desc="DevOps Practitioner"
-          ></Team_Image>
-          <Team_Content></Team_Content>
-        </div>
-        <div className={styles.team_item}>
-          <Team_Image
-            url="/Rectangle705.png"
-            name="Hau Tran"
-            desc="Mobile Guru"
-          ></Team_Image>
-          <Team_Content></Team_Content>
-        </div>
-        <div className={styles.team_item}>
-          <Team_Image
-            url="/Rectangle706.png"
-            name="Tam Pham"
-            desc="Web Wizard"
-          ></Team_Image>
-          <Team_Content></Team_Content>
-        </div>
-        <div className={styles.team_item}>
-          <Team_Image
-            url="/Rectangle707.png"
-            name="Ngoc Vu"
-            desc="UI/UX Sorcerer"
-          ></Team_Image>
-          <Team_Content></Team_Content>
-        </div>
+        <Team_Item
+          url="/Rectangle702.png"
+          name="Kiet Ngo"
+          desc="AgileOps Lead"
+        ></Team_Item>
+        <Team_Item
+          url="/Rectangle703.png"
+          name="Duy Nguyen"
+          desc="Agile Evangelist"
+        ></Team_Item>
+        <Team_Item
+          url="/Rectangle704.png"
+          name="Luu Minh"
+          desc="DevOps Practitioner"
+        ></Team_Item>
+        <Team_Item
+          url="/Rectangle705.png"
+          name="Hau Tran"
+          desc="Mobile Guru"
+        ></Team_Item>
+        <Team_Item
+          url="/Rectangle706.png"
+          name="Tam Pham"
+          desc="Web Wizard"
+        ></Team_Item>
+        <Team_Item
+          url="/Rectangle707.png"
+          name="Ngoc Vu"
+          desc="UI/UX Sorcerer"
+        ></Team_Item>
       </div>
     </section>
   );

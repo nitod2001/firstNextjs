@@ -12,7 +12,7 @@ export default function NotFound() {
   }, []);
   return (
     <div>
-      <h1>404</h1>
+      Ư<h1>404</h1>
       <h2>The page not found</h2>
       <p>
         Going back the <Link href="/">Home page</Link> is in 3 seconds
