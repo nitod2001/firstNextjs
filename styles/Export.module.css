@@ -1,0 +1,64 @@
+.export_content {
+  padding: 6rem 16.2rem;
+}
+
+.export_heading {
+  color: #0052d8;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+  text-transform: capitalize;
+}
+
+.export_titile {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #0c1c46;
+}
+
+.export_desc_wrap {
+  padding-top: 0.6rem;
+  margin-bottom: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.export_desc {
+  flex: 1;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.export_desc_block {
+  flex: 1;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  gap: 7.2rem;
+}
+
+.export_role_title {
+  text-transform: uppercase;
+  color: #0c1c46;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 2.6rem;
+}
+
+.export_role_options {
+  color: #0c1c46;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.936rem;
+}
+
+.export_block {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}

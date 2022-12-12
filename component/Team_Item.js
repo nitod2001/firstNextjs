@@ -12,7 +12,7 @@ export default function Team_Item(props) {
         name={props.name}
         desc={props.desc}
       ></Team_Image>
-      <Team_Content></Team_Content>
+      <Team_Content none={props.none}></Team_Content>
     </div>
   );
 }

@@ -120,21 +120,25 @@ export default function service() {
         <div className="service_experts_container_wrap">
           <div className={styles.service_experts_container}>
             <Team_Item
+              none="true"
               url="/Rectangle708.png"
               name="Thao Vu"
               desc="Mobile Guru"
             ></Team_Item>
             <Team_Item
+              none="true"
               url="/Rectangle709.png"
               name="Quang Nguyen"
               desc="Web Wizard"
             ></Team_Item>
             <Team_Item
+              none="true"
               url="/Rectangle702.png"
               name="Kiet Ngo"
               desc="AgileOps Lead"
             ></Team_Item>
             <Team_Item
+              none="true"
               url="/Rectangle704.png"
               name="Minh Luu"
               desc="DevOps Practitioner"

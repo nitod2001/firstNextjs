@@ -3,13 +3,21 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-export default function Team_Content() {
+export default function Team_Content(props) {
   const [click, setClick] = useState(false);
   const handleClick = () => {
     click ? setClick(false) : setClick(true);
   };
   return (
     <div className={styles.team_item_content}>
+      <div className={props.none ? styles.none : styles.team_media}>
+        <img src="/export1.png"></img>
+        <img src="/export2.png"></img>
+        <img src="/export3.png"></img>
+        <img src="/export4.png"></img>
+        <img src="/export5.png"></img>
+        <img src="/export6.png"></img>
+      </div>
       <div
         className={
           click ? styles.team_item_intro_active : styles.team_item_intro

@@ -80,6 +80,16 @@
   color: #0c1c46;
 }
 
+.team_media {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3.8rem;
+}
+
+.none {
+  display: none;
+}
+
 .team_item_intro {
   font-size: 1.6rem;
   font-weight: 400;

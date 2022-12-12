@@ -23,31 +23,37 @@ export default function Team() {
       </div>
       <div className={styles.team_block}>
         <Team_Item
+          none="true"
           url="/Rectangle702.png"
           name="Kiet Ngo"
           desc="AgileOps Lead"
         ></Team_Item>
         <Team_Item
+          none="true"
           url="/Rectangle703.png"
           name="Duy Nguyen"
           desc="Agile Evangelist"
         ></Team_Item>
         <Team_Item
+          none="true"
           url="/Rectangle704.png"
           name="Luu Minh"
           desc="DevOps Practitioner"
         ></Team_Item>
         <Team_Item
+          none="true"
           url="/Rectangle705.png"
           name="Hau Tran"
           desc="Mobile Guru"
         ></Team_Item>
         <Team_Item
+          none="true"
           url="/Rectangle706.png"
           name="Tam Pham"
           desc="Web Wizard"
         ></Team_Item>
         <Team_Item
+          none="true"
           url="/Rectangle707.png"
           name="Ngoc Vu"
           desc="UI/UX Sorcerer"
