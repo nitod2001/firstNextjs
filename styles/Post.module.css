@@ -22,6 +22,7 @@
 
 .post_item {
   display: flex;
+  margin-right: 2.4rem;
 }
 
 .posts_heading {
@@ -78,10 +79,6 @@
   padding: 0.2rem 0.8rem;
   background-color: #0081ff;
   color: #fff;
-}
-
-.post_content {
-  width: 20.6rem;
 }
 
 .post_title {

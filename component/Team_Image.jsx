@@ -17,8 +17,9 @@ export default function Team_Image(props) {
             overflow: hidden;
             position: relative;
             margin-bottom: 1rem;
-            height: 356px;
-            background-image: url(${props.url});
+            height: 35.6rem;
+            background: url(${props.url}) no-repeat;
+            background-size: cover;
             background-color: #e9eef4;
             background-blend-mode: luminosity;
           }

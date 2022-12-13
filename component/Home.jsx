@@ -82,6 +82,7 @@ export default function MainHome() {
             </div>
           </div>
         </div>
+        <div></div>
         <div className={styles.home_block}>
           <div className={styles.home_block_item}>
             <FontAwesomeIcon

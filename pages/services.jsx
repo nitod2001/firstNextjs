@@ -7,6 +7,18 @@ import Snapshot_Content from "../component/Snapshot_Content";
 import Team_Item from "../component/Team_Item";
 import Bar from "../component/Bar";
 
+import { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Pagination, Navigation } from "swiper";
+
 export default function service() {
   return (
     <section className="service_section">
@@ -118,7 +130,19 @@ export default function service() {
           </div>
         </div>
         <div className="service_experts_container_wrap">
-          <div className={styles.service_experts_container}>
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            slidesPerGroup={3}
+            loop={true}
+            loopFillGroupWithBlank={true}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="mySwiper"
+          >
             <Team_Item
               none="true"
               url="/Rectangle708.png"
@@ -143,7 +167,7 @@ export default function service() {
               name="Minh Luu"
               desc="DevOps Practitioner"
             ></Team_Item>
-          </div>
+          </Swiper>
         </div>
       </div>
     </section>

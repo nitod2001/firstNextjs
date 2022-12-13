@@ -37,13 +37,13 @@
 }
 
 .team_block {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
 }
 
 .team_item {
-  width: 356px;
   overflow: hidden;
 }
 
