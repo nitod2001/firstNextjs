@@ -70,8 +70,7 @@
 }
 
 .contact_image {
-  width: 55rem;
-  height: 47.8rem;
+  flex: 1;
   border-radius: 1rem;
   background: url("/contact.png");
 }
