@@ -129,45 +129,31 @@ export default function service() {
             services on Upwork.
           </div>
         </div>
-        <div className="service_experts_container_wrap">
-          <Swiper
-            slidesPerView={3}
-            spaceBetween={30}
-            slidesPerGroup={3}
-            loop={true}
-            loopFillGroupWithBlank={true}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-            className="mySwiper"
-          >
-            <Team_Item
-              none="true"
-              url="/Rectangle708.png"
-              name="Thao Vu"
-              desc="Mobile Guru"
-            ></Team_Item>
-            <Team_Item
-              none="true"
-              url="/Rectangle709.png"
-              name="Quang Nguyen"
-              desc="Web Wizard"
-            ></Team_Item>
-            <Team_Item
-              none="true"
-              url="/Rectangle702.png"
-              name="Kiet Ngo"
-              desc="AgileOps Lead"
-            ></Team_Item>
-            <Team_Item
-              none="true"
-              url="/Rectangle704.png"
-              name="Minh Luu"
-              desc="DevOps Practitioner"
-            ></Team_Item>
-          </Swiper>
+        <div className={styles.service_experts_container_wrap}>
+          <Team_Item
+            none="true"
+            url="/Rectangle708.png"
+            name="Thao Vu"
+            desc="Mobile Guru"
+          ></Team_Item>
+          <Team_Item
+            none="true"
+            url="/Rectangle709.png"
+            name="Quang Nguyen"
+            desc="Web Wizard"
+          ></Team_Item>
+          <Team_Item
+            none="true"
+            url="/Rectangle702.png"
+            name="Kiet Ngo"
+            desc="AgileOps Lead"
+          ></Team_Item>
+          <Team_Item
+            none="true"
+            url="/Rectangle704.png"
+            name="Minh Luu"
+            desc="DevOps Practitioner"
+          ></Team_Item>
         </div>
       </div>
     </section>
